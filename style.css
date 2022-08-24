@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+body{
+    
+    background: #3cb371;
+    box-sizing: border-box;
+}
+
+/* main{
+    width: 870px;
+    height: 870px;
+    background: white;
+    float: left;
+}
+main img{
+    width: 870px;
+}
+main h2 {
+    padding: 15px 15px 0 15px;
+    font-size: 1.3em;
+}
+main p{
+    padding: 15px;
+    margin-top: -10px;
+    font-size: 1em;
+    color: grey;
+}
+.josh{
+padding: 15px;
+margin-top: 50px;
+    font-size: 0.8em;
+    color: grey;
+}
+.right{
+    text-align: right;
+    padding: 15px;
+    font-size: 0.8em;
+    color: grey;
+    margin-top: -50px;
+}
+section{
+    display: block;
+    flex-wrap: wrap;
+    float: right;
+    width: 350px;
+    height: 600px;
+    background: white;
+}
+section img{
+    width: 350px;
+}
+section h2{
+    padding: 15px 15px 0 15px;
+    font-size: 1.3em;
+}
+section p{
+    padding: 15px;
+        margin-top: -10px;
+        font-size: 1em;
+        color: grey;
+}
+
+.third{
+    width: 350px;
+    height: 240px;
+    background: white;
+    float: right;
+    margin-top: 50px;
+}
+.third h2{
+    padding: 20px;
+}
+.third p{
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.josh3{
+    margin-top: 90px;
+    font-size: 0.8em;
+        color: grey;
+}
+.right3{
+    text-align: right;
+    margin-top: -40px;
+    padding: 15px;
+    font-size: 0.8em;
+        color: grey;
+}
+.josh2{
+    margin-top: 180px;
+    font-size: 0.8em;
+}
+.right2{
+    text-align: right;
+    margin-top: -45px;
+    padding: 15px;
+    font-size: 0.8em;
+    color: grey;
+}
+.third{
+    flex-direction: column;
+} */
+
+main{
+    width: 800px;
+    background: white;
+    margin: 20px;
+    display: block;
+    flex-direction: column;
+}
+img{
+    width: 800px;
+}
+h2{
+    margin: 10px;
+}
+p{
+    color: grey;
+    margin: 10px;
+}
+
+.right{
+    text-align: right;
+    color: grey;
+    margin: 10px;
+    padding: 10px;
+    margin-top: -40px;
+}
+section{
+    
+    margin: 20px;
+    width: 300px;
+    background: white;
+}
+section img{
+    width: 300px;
+}
+aside{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: white;
+ display: block;
+ flex-direction: column;
+}
+@media (max-width: 1024px){
+    main{
+        width: 100%;
+        margin: 20px;
+    }
+}
